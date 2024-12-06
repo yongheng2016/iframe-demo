@@ -3,7 +3,14 @@
 </template>
 
 <script setup>
+import microApp from "@micro-zoe/micro-app";
+
+microApp.start();
 defineOptions({
-  name: 'App'
+  name: "App",
 });
 </script>
+<style>
+body {
+}
+</style>
