@@ -46,7 +46,7 @@ const randomStr = ref("");
 
 const list = [
   "https://files.yangyongheng.olares.cn",
-  // "https://market.yangyongheng.olares.cn",
+  "https://market.yangyongheng.olares.cn",
   // "https://settings.yangyongheng.olares.cn",
   // "https://profile.yangyongheng.olares.cn",
   // "https://dashboard.yangyongheng.olares.cn",
