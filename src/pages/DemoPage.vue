@@ -1,13 +1,5 @@
 <template>
   <div @mouseover="preloadIframe('your-page-1.html')" @click="onClick">
-    <div
-      class="absolute-top"
-      style="right: 0"
-      @mouseover="mouseoverHandler"
-      @mouseout="mouseoutHandler"
-    >
-      {{ confirm ? "show" : "hide" }}
-    </div>
     <slot></slot>
   </div>
   <q-page class="flex flex-center">

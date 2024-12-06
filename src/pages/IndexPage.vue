@@ -46,8 +46,13 @@ const randomStr = ref("");
 
 const list = [
   "https://files.yangyongheng.olares.cn",
-  "https://market.yangyongheng.olares.cn",
-  "https://settings.yangyongheng.olares.cn",
+  // "https://market.yangyongheng.olares.cn",
+  // "https://settings.yangyongheng.olares.cn",
+  // "https://profile.yangyongheng.olares.cn",
+  // "https://dashboard.yangyongheng.olares.cn",
+  // "https://control-hub.yangyongheng.olares.cn",
+  // "https://wise.yangyongheng.olares.cn",
+  // "https://vault.yangyongheng.olares.cn",
 ];
 
 const list2 = [
