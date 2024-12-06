@@ -10,7 +10,9 @@
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@micro-zoe/micro-app": "^1.0.0-rc.15",
@@ -23,11 +25,14 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
     "@quasar/app-webpack": "^3.13.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.0.0",
     "eslint-webpack-plugin": "^3.1.1",
+    "husky": "^9.1.7",
     "prettier": "^2.5.1"
   },
   "browserslist": [
